@@ -16,8 +16,12 @@ class Scrapper
         data = steamHTML.read
         parsedContent = Nokogiri::HTML(data)
         # puts parsedContent
-        games = parsedContent.css('.responsive_search_name_combined').inner_text
-        puts games
+        games = parsedContent.css('#search_resultsRows .title').inner_text
+        parsedContent.css('#search_resultsRows .title').each do |game|
+            #Nombre del juego
+            puts game.inner_text
+        end
+        # puts games
     end
 
     def writeToFile(filename)
