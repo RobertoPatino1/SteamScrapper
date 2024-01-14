@@ -1,11 +1,12 @@
 # Agregando librerias requeridas
-require 'open-uri'
-require 'nokogiri'
-require 'csv'
+
 
 # Agregando clases creadas
 require './core/scrapper'
 
-#Creando el objto de tipo scrapper
-scrapper = Scrapper.new()
+
+MAIN_URL = 'https://store.steampowered.com/search/'
+#Creando el objeto de tipo scrapper
+scrapper = Scrapper.new(MAIN_URL)
+scrapper.extractGames()
 
