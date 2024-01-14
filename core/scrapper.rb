@@ -1,7 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 require 'csv'
-
+require './core/file_handler'
 class Scrapper
 
     attr_accessor :url
@@ -11,6 +11,7 @@ class Scrapper
     end
 
     def extract_games
+        File_Handler.create_file("games.csv",["Titulo","Fecha de lanzamiento","Precio", "Plataformas"])
         steam_html = URI.open(@url)
         data = steam_html.read
         parsed_content = Nokogiri::HTML(data)
@@ -31,12 +32,10 @@ class Scrapper
         
         platform_info = platform_span.map do |span|
         span['class'].split.last 
-        end.join(', ')
+        end.join('-')
 
         platform_info.empty? ? 'No disponible' : platform_info
     end
 
-    def write_to_file(filename,header)
 
-    end
 end
