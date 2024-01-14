@@ -11,17 +11,18 @@ class Scrapper
     end
 
 
-    def extractGames()
-        steamHTML = URI.open(@url)
-        data = steamHTML.read
-        parsedContent = Nokogiri::HTML(data)
-        # puts parsedContent
-        games = parsedContent.css('#search_resultsRows .title').inner_text
-        parsedContent.css('#search_resultsRows .title').each do |game|
-            #Nombre del juego
-            puts game.inner_text
+    def extractGames
+        steam_html = URI.open(@url)
+        data = steam_html.read
+        parsed_content = Nokogiri::HTML(data)
+
+        parsed_content.css('#search_resultsRows a.search_result_row').each do |game|
+            title = game.css('.search_name .title').text.strip
+            release_date = game.css('.search_released').text.strip
+            price = game.css('.search_price_discount_combined .discount_final_price').text.strip
+
+            puts "#{title} - #{release_date} - #{price}"
         end
-        # puts games
     end
 
     def writeToFile(filename)
