@@ -24,6 +24,7 @@ class Scrapper
         platform_info = extract_platform_info(game)
 
         puts "#{title} - #{release_date} - #{price} - Plataformas: #{platform_info}"
+        File_Handler.write_to_file('games.csv',[title,release_date,price,platform_info])
         end
     end
 

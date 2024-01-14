@@ -7,4 +7,10 @@ class File_Handler
             csv<<header
         end
     end
+
+    def self.write_to_file(filename,line)
+        CSV.open(filename,'a') do |csv|
+            csv<<line
+        end
+    end
 end
