@@ -78,7 +78,21 @@ class Scrapper
         games = parsed_content.css('#search_resultsRows a.search_result_row')
 
         break if games.empty?
+        
+        games.each do |game|
+            title = game.css('.search_name .title').text.strip
 
+            puts "Writing data from the game: #{title}..."
+            File_Handler.write_to_file('game_titles.csv', [title])
+
+            remaining_lines -= 1
+            break if remaining_lines <= 0
+        end
+
+        break if remaining_lines <= 0
+        current_page += 1
+    end
+end
 
 
 end
