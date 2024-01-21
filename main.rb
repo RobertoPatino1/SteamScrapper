@@ -10,3 +10,9 @@ MAIN_URL = 'https://store.steampowered.com/search/'
 scrapper = Scrapper.new(MAIN_URL)
 scrapper.extract_games()
 
+scrapper.extraer_codigos_categorias()          
+
+categoria = 'atmospheric'
+
+scrapper.extraer_titulos_categoria(categoria)
+
