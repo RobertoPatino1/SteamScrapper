@@ -53,7 +53,7 @@ class Scrapper
         platform_info.empty? ? 'No disponible' : platform_info
     end
 
-
+    
 
     def extract_reviews(game)
         review_summary = game.css('.search_review_summary')
@@ -63,6 +63,53 @@ class Scrapper
         reviews_number
     end
 
+    def extraer_titulos_categoria(categoria)
+  nombre_codigo_hash = {}
+  CSV.foreach('codigos_categorias_juegos.csv', headers: true) do |row|
+    nombre_codigo_hash[row['Nombre']] = row['Código'].to_i
+  end
+
+  codigo = nombre_codigo_hash[categoria]
+
+  CSV.open("categoria_#{categoria}.csv", 'a') do |csv|
+    csv << ['Nombre']
+
+    url = "https://store.steampowered.com/search/?tags=#{codigo}&ndl=1"
+    html = URI.open(url)
+    doc = Nokogiri::HTML(html)
+
+    titles = doc.css('span.title')
+
+    titles.each do |title|
+      csv << [title.text]
+    end
+  end
+end
+
+def extraer_codigos_categorias
+  url = 'https://store.steampowered.com/search/?tags=4182&ndl=1'
+  html = URI.open(url)
+  doc = Nokogiri::HTML(html)
+  filter_rows = doc.css('.tab_filter_control_row')
+
+  data = []
+  filter_rows.each do |filter_row|
+    loc_value = filter_row['data-loc'].downcase
+
+    value_value = filter_row['data-value']
+
+    data << [loc_value, value_value] if value_value.to_i.to_s == value_value
+  end
+
+  CSV.open('codigos_categorias_juegos.csv', 'w') do |csv|
+    csv << ["Nombre", "Código"]
+
+    data.each do |row|
+      csv << row
+    end
+  end
+end
+    
     def extract_game_titles
     File_Handler.create_file("game_titles.csv", ["Titulo"])
 
