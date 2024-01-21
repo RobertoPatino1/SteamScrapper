@@ -63,6 +63,36 @@ class Scrapper
         reviews_number
     end
 
+    def extract_game_titles
+    File_Handler.create_file("game_titles.csv", ["Titulo"])
+
+    current_page = 1
+    remaining_lines = 100
+
+    loop do
+        page_url = "#{@url}?page=#{current_page}"
+        steam_html = URI.open(page_url)
+        data = steam_html.read
+        parsed_content = Nokogiri::HTML(data)
+
+        games = parsed_content.css('#search_resultsRows a.search_result_row')
+
+        break if games.empty?
+        
+        games.each do |game|
+            title = game.css('.search_name .title').text.strip
+
+            puts "Writing data from the game: #{title}..."
+            File_Handler.write_to_file('game_titles.csv', [title])
+
+            remaining_lines -= 1
+            break if remaining_lines <= 0
+        end
+
+        break if remaining_lines <= 0
+        current_page += 1
+    end
+end
 
 
 end
