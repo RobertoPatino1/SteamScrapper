@@ -109,7 +109,88 @@ def extraer_codigos_categorias
     end
   end
 end
+    #-------------------------------------------------------------
+#Obtener el promedio de las reseñas y los precios por gategoría
+def prom_resena_precio(codigo)
+
+  url = "https://store.steampowered.com/search/?tags=#{codigo}&ndl=1"
+  html = URI.open(url)
+  doc = Nokogiri::HTML(html)
+
+  # Inicializar variables
+  total_juegos = 0
+  suma_resenas = 0
+  suma_precios = 0
+
+  # Iterar sobre cada juego
+  doc.css('.search_result_row').each do |game|
+    # Obtener reseña y precio del juego actual
+    resena_juego = game.css('.search_review_summary').attr('data-tooltip-html')&.value.to_s.split(" ")[4]&.gsub(',', '')
+    precio = game.css('.discount_final_price').text.strip.gsub(/\$/, '').to_f
+
+    # Incrementar contador
+    total_juegos += 1
+
+    # Acumular valores
+    suma_resenas += resena_juego.to_i if resena_juego
+    suma_precios += precio
+
+    # Imprimir información del juego actual
     
+  end
+
+  # Calcular promedio
+  promedio_resenas = suma_resenas / total_juegos
+  promedio_precios = (suma_precios / total_juegos).round(2)
+  [promedio_resenas, promedio_precios]
+end
+
+#-------------------------------------------------------------
+#-------------------------------------------------------------
+#Obtener el total de juegos entre categoría y plataforma
+def total_categoria_plataforma(codigo, plataforma)
+  url = "https://store.steampowered.com/search/?tags=#{codigo}&os=#{plataforma}&ndl=1"
+
+  html = URI.open(url).read
+  doc = Nokogiri::HTML(html)
+  
+  # Buscar el div que contiene la información que necesitas
+  result_div = doc.css('#search_results_filtered_warning div')[0]
+  
+  # Separar el texto por espacios y tomar el primer elemento
+  result_text = result_div.text.split(' ')[0]&.gsub(',', '')
+  
+  
+  result_text.to_i
+end
+
+#-------------------------------------------------------------
+#-------------------------------------------------------------
+#Guardar datos de promedio de las reseñas, precios, total de juegos por categoría
+
+def datos_categoria
+  nombre_codigo_hash = {}
+  CSV.foreach('codigos_categorias_juegos.csv', headers: true) do |row|
+    nombre_codigo_hash[row['Nombre']] = row['Código'].to_i
+  end
+
+  l_categorías = ["singleplayer", "3d","action", "adventure", "strategy", "casual", "building", "sports", "2d", "sandbox", "arcade", "fantasy", "horror", "colorful", "simulation", "indie", "racing", "puzzle", "card game", "vr"]
+  
+  cont = 0
+  CSV.open("datos_categoria.csv", 'w') do |csv|
+    csv << ['Nombre', 'Promedio de Resenas', 'Promedio de Precios', 'windows', 'mac', 'linux']
+    l_categorías.each do |categoria|
+      codigo = nombre_codigo_hash[categoria]
+      promedio_resenas, promedio_precios = prom_resena_precio(codigo)
+      total_windows = total_categoria_plataforma(codigo, "win")
+      total_mac = total_categoria_plataforma(codigo, "mac")
+      total_linux = total_categoria_plataforma(codigo, "linux")
+
+      csv << [categoria, promedio_resenas, promedio_precios, total_windows, total_mac, total_linux]
+    end
+  end
+end
+#-------------------------------------------------------------
     def extract_game_titles
     File_Handler.create_file("game_titles.csv", ["Titulo"])
 
