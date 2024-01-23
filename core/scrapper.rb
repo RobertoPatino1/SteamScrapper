@@ -191,6 +191,90 @@ def datos_categoria
   end
 end
 #-------------------------------------------------------------
+
+def count_games_by_language_to_csv(languages)
+    File_Handler.create_file("games_by_language.csv", ["Idioma", "Total de juegos disponibles"])
+
+    languages.each do |language|
+      page_url = "#{@url}?supportedlang=#{language}&ndl=1"
+      steam_html = URI.open(page_url)
+      data = steam_html.read
+      parsed_content = Nokogiri::HTML(data)
+
+      filtered_warning = parsed_content.css('#search_results_filtered_warning div').text.strip
+
+      match = /(\d+,*\d*)\s+results match your search\.(\s*(\d+,*\d*)\s+titles have been excluded based on your preferences(\. However, none of these titles would appear on the first page of results\.)?)?/.match(filtered_warning)
+
+      total_results = match[1].gsub(',', '').to_i if match && match[1]
+
+      puts "Writing data for language #{language}..."
+      File_Handler.write_to_file('games_by_language.csv', [language, total_results])
+    end
+  end
+  
+def count_vr_games_to_csv
+  total_vr_games = 0
+  exclusive_vr_games = 0
+
+  [401, 402].each do |vr_type|
+    page_url = "#{@url}&vrsupport=#{vr_type}"
+    steam_html = URI.open(page_url)
+    data = steam_html.read
+    parsed_content = Nokogiri::HTML(data)
+
+    filtered_warning = parsed_content.css('#search_results_filtered_warning div').text.strip
+
+    match = /(\d+,*\d*)\s+results match your search\. (\d+,*\d*) titles have been excluded based on your preferences(\. However, none of these titles would appear on the first page of results\.)?/.match(filtered_warning)
+
+    total_results = match[1].gsub(',', '').to_i
+    excluded_titles = match[2].gsub(',', '').to_i
+
+    total_vr_games += total_results
+    exclusive_vr_games += excluded_titles
+  end
+
+  write_vr_info_to_csv(total_vr_games, exclusive_vr_games)
+end
+
+def write_vr_info_to_csv(total_vr_games, exclusive_vr_games)
+  File_Handler.create_file("vr_games_info.csv", ["Total de juegos con soporte VR", "Total de juegos exclusivos para VR"])
+  File_Handler.write_to_file('vr_games_info.csv', [total_vr_games, exclusive_vr_games])
+end
+
+  def extract_game_prices
+    File_Handler.create_file('game_both_price.csv', ['Titulo', 'Precio Original', 'Precio Final con Descuento'])
+
+    current_page = 1
+    remaining_lines = 100
+
+    loop do
+      page_url = "#{@url}?page=#{current_page}"
+      steam_html = URI.open(page_url)
+      data = steam_html.read
+      parsed_content = Nokogiri::HTML(data)
+
+      games = parsed_content.css('#search_resultsRows a.search_result_row')
+
+      break if games.empty?
+
+      games.each do |game|
+        title = game.css('.search_name .title').text.strip
+        original_price = game.css('.discount_original_price').text.strip
+        final_price = game.css('.discount_final_price').text.strip
+
+        puts "Writing data from the game: #{title}..."
+        File_Handler.write_to_file('game_both_price.csv', [title, original_price, final_price])
+
+        remaining_lines -= 1
+        break if remaining_lines <= 0
+      end
+
+      break if remaining_lines <= 0
+
+      current_page += 1
+    end
+  end
+
     def extract_game_titles
     File_Handler.create_file("game_titles.csv", ["Titulo"])
 
