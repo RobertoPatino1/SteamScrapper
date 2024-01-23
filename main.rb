@@ -25,3 +25,5 @@ scrapper.extraer_titulos_categoria(categoria)
 scrapper2 = Scrapper.new("https://store.steampowered.com/search/?specials=1&ndl=1")
 
 scrapper2.extract_game_prices
+
+scrapper.datos_categoria()
