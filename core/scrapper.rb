@@ -109,36 +109,36 @@ def extraer_codigos_categorias
     end
   end
 end
-    #-------------------------------------------------------------
-#Obtener el promedio de las reseñas y los precios por gategoría
+
+#-------------------------------------------------------------
+
+#-------------------------------------------------------------
+#Obtener el promedio de las reseñas y los precios por categoría
 def prom_resena_precio(codigo)
 
   url = "https://store.steampowered.com/search/?tags=#{codigo}&ndl=1"
   html = URI.open(url)
   doc = Nokogiri::HTML(html)
 
-  # Inicializar variables
   total_juegos = 0
   suma_resenas = 0
   suma_precios = 0
-
-  # Iterar sobre cada juego
+  
   doc.css('.search_result_row').each do |game|
-    # Obtener reseña y precio del juego actual
+    
     resena_juego = game.css('.search_review_summary').attr('data-tooltip-html')&.value.to_s.split(" ")[4]&.gsub(',', '')
     precio = game.css('.discount_final_price').text.strip.gsub(/\$/, '').to_f
 
-    # Incrementar contador
     total_juegos += 1
 
-    # Acumular valores
     suma_resenas += resena_juego.to_i if resena_juego
     suma_precios += precio
 
-    # Imprimir información del juego actual
-    
   end
-
+  
+  if total_juegos == 0
+    total_juegos = 50
+  end
   # Calcular promedio
   promedio_resenas = suma_resenas / total_juegos
   promedio_precios = (suma_precios / total_juegos).round(2)
@@ -154,14 +154,11 @@ def total_categoria_plataforma(codigo, plataforma)
   html = URI.open(url).read
   doc = Nokogiri::HTML(html)
   
-  # Buscar el div que contiene la información que necesitas
   result_div = doc.css('#search_results_filtered_warning div')[0]
   
-  # Separar el texto por espacios y tomar el primer elemento
-  result_text = result_div.text.split(' ')[0]&.gsub(',', '')
+  result_text = result_div.text.split(' ')[0]&.gsub(',', '') if result_div
   
-  
-  result_text.to_i
+  result_text.to_i if result_div
 end
 
 #-------------------------------------------------------------
@@ -170,26 +167,49 @@ end
 
 def datos_categoria
   nombre_codigo_hash = {}
+  l_categorias_completa = []
   CSV.foreach('codigos_categorias_juegos.csv', headers: true) do |row|
     nombre_codigo_hash[row['Nombre']] = row['Código'].to_i
+    l_categorias_completa << row['Nombre']
   end
 
-  l_categorías = ["singleplayer", "3d","action", "adventure", "strategy", "casual", "building", "sports", "2d", "sandbox", "arcade", "fantasy", "horror", "colorful", "simulation", "indie", "racing", "puzzle", "card game", "vr"]
+  l_categorias_muestra = ["singleplayer",
+    "3d",
+    "action", "adventure", "strategy", "casual", "building", "sports", "2d", "sandbox", "arcade", "fantasy", "horror", "colorful", "simulation", "indie", "racing", "puzzle", "card game", "vr"]
   
-  cont = 0
+  
   CSV.open("datos_categoria.csv", 'w') do |csv|
+    #Linea de cabecera
     csv << ['Nombre', 'Promedio de Resenas', 'Promedio de Precios', 'windows', 'mac', 'linux']
-    l_categorías.each do |categoria|
+    
+    #Para probar se puede usar la lista de muestra
+    #Verificar que esté en modo "w"
+    l_categorias_muestra.each do |categoria|
+
+    #-------------------------------------------------
+    #La lista completa demora alrededor de 20 - 35 minutos en extraer todos los datos y es recomendable iterar de 170 en 170
+    #Para la primera iteración verificar que esté en modo "w"
+    #l_categorias_completa[0..169].each do |categoria|
+      
+    #Desde la segunda iteracion comentar la linea de cabecera
+    #Cambiar el modo de escritura: "a"
+    #l_categorias_completa[170..339].each do |categoria|
+    #l_categorias_completa[340..-1].each do |categoria|
+    #-------------------------------------------------
+
+      
       codigo = nombre_codigo_hash[categoria]
       promedio_resenas, promedio_precios = prom_resena_precio(codigo)
       total_windows = total_categoria_plataforma(codigo, "win")
       total_mac = total_categoria_plataforma(codigo, "mac")
       total_linux = total_categoria_plataforma(codigo, "linux")
 
-      csv << [categoria, promedio_resenas, promedio_precios, total_windows, total_mac, total_linux]
+      csv << [categoria, promedio_resenas, promedio_precios, total_windows, total_mac, total_linux] if promedio_resenas != 0 && promedio_precios != 0 && total_windows && total_mac && total_linux
+
     end
   end
 end
+#-------------------------------------------------------------
 #-------------------------------------------------------------
 
 def count_games_by_language_to_csv(languages)
