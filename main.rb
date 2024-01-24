@@ -26,7 +26,4 @@ scrapper2 = Scrapper.new("https://store.steampowered.com/search/?specials=1&ndl=
 
 scrapper2.extract_game_prices
 
-# scrapper.datos_categoria()
-# Se comenta esta línea debido a que a veces la página se actualiza y cambian los valores
-# para hacer scrapping, si se descomenta la linea verá que guarda en el respectivo archivo csv
-# las otras categorías.
+scrapper.datos_categoria()
