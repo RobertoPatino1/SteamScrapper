@@ -8,11 +8,13 @@ class Scrapper
     def initialize(url)
         @url = url
     end
-
+#---------------------------------------
+#APORTE ROBERTO PATIÑO
+#---------------------------------------
     def extract_games
         File_Handler.create_file("games.csv", ["Titulo", "Fecha de lanzamiento", "Precio", "Plataformas", "Total de Reviews"])
         page = 1
-        total_lines = 100
+        total_lines = 500
 
         loop do
             page_url = "#{@url}?page=#{page}"
@@ -62,7 +64,13 @@ class Scrapper
         reviews_number = match ? match[1].gsub(',', '') : 'N/A'
         reviews_number
     end
+#---------------------------------------
+#FIN DE APORTE ROBERTO PATIÑO
+#---------------------------------------
 
+#---------------------------------------
+#APORTE CRISTOPHER ARROBA
+#---------------------------------------
     def extraer_titulos_categoria(categoria)
   nombre_codigo_hash = {}
   CSV.foreach('codigos_categorias_juegos.csv', headers: true) do |row|
@@ -209,9 +217,14 @@ def datos_categoria
     end
   end
 end
-#-------------------------------------------------------------
-#-------------------------------------------------------------
 
+#---------------------------------------
+#FIN DE APORTE CRISTOPHER ARROBA
+#---------------------------------------
+
+#---------------------------------------
+#APORTE DANIEL MATEO
+#---------------------------------------
 def count_games_by_language_to_csv(languages)
     File_Handler.create_file("games_by_language.csv", ["Idioma", "Total de juegos disponibles"])
 
@@ -256,10 +269,10 @@ def count_vr_games_to_csv
   write_vr_info_to_csv(total_vr_games, exclusive_vr_games)
 end
 
-def write_vr_info_to_csv(total_vr_games, exclusive_vr_games)
-  File_Handler.create_file("vr_games_info.csv", ["Total de juegos con soporte VR", "Total de juegos exclusivos para VR"])
-  File_Handler.write_to_file('vr_games_info.csv', [total_vr_games, exclusive_vr_games])
-end
+  def write_vr_info_to_csv(total_vr_games, exclusive_vr_games)
+    File_Handler.create_file("vr_games_info.csv", ["Total de juegos con soporte VR", "Total de juegos exclusivos para VR"])
+    File_Handler.write_to_file('vr_games_info.csv', [total_vr_games, exclusive_vr_games])
+  end
 
   def extract_game_prices
     File_Handler.create_file('game_both_price.csv', ['Titulo', 'Precio Original', 'Precio Final con Descuento'])
@@ -295,36 +308,7 @@ end
     end
   end
 
-    def extract_game_titles
-    File_Handler.create_file("game_titles.csv", ["Titulo"])
 
-    current_page = 1
-    remaining_lines = 100
-
-    loop do
-        page_url = "#{@url}?page=#{current_page}"
-        steam_html = URI.open(page_url)
-        data = steam_html.read
-        parsed_content = Nokogiri::HTML(data)
-
-        games = parsed_content.css('#search_resultsRows a.search_result_row')
-
-        break if games.empty?
-        
-        games.each do |game|
-            title = game.css('.search_name .title').text.strip
-
-            puts "Writing data from the game: #{title}..."
-            File_Handler.write_to_file('game_titles.csv', [title])
-
-            remaining_lines -= 1
-            break if remaining_lines <= 0
-        end
-
-        break if remaining_lines <= 0
-        current_page += 1
-    end
-end
 
 
 end

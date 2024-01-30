@@ -1,101 +1,501 @@
 Titulo,Fecha de lanzamiento,Precio,Plataformas,Total de Reviews
-Baldur's Gate 3,"3 Aug, 2023",$34.99,win-mac,480341
-Counter-Strike 2,"21 Aug, 2012",Free,win-linux,834609
-Lethal Company,"23 Oct, 2023",$5.79,win,228501
-Apex Legends™,"4 Nov, 2020",Free,win,780623
-PUBG: BATTLEGROUNDS,"21 Dec, 2017",Free,win,284621
-Warframe,"25 Mar, 2013",Free,win,557496
-Call of Duty®,"27 Oct, 2022","",win,512264
-Ready or Not,"13 Dec, 2023",$32.99,win,120554
-Tom Clancy's Rainbow Six® Siege,"1 Dec, 2015",$15.99,win,031462
-Grand Theft Auto V,"13 Apr, 2015",$22.48,win,567680
-THE FINALS,"7 Dec, 2023",Free,win,114510
-War Thunder,"15 Aug, 2013",Free,win-mac-linux,445648
-Dota 2,"9 Jul, 2013",Free,win-mac-linux,153432
-Cyberpunk 2077,"9 Dec, 2020",$44.99,win,622517
-Rust,"8 Feb, 2018",$18.99,win-mac,834501
-EA SPORTS FC™ 24,"28 Sep, 2023",$69.99,win,32549
-Destiny 2,"1 Oct, 2019",Free,win,580293
-Lost Ark,"11 Feb, 2022",Free,win,197628
-Monster Hunter: World,"9 Aug, 2018",$22.49,win,248294
-ELDEN RING,"24 Feb, 2022",$47.99,win,565579
-Anno 1800,Apr 2019,$11.99,win,12909
-NARAKA: BLADEPOINT,"11 Aug, 2021",Free,win,194533
-Path of Exile,"23 Oct, 2013",Free,win-mac,215150
-Dead by Daylight,"14 Jun, 2016",$10.49,win,508879
-Cyberpunk 2077: Phantom Liberty,"25 Sep, 2023",$22.49,win,12568
-The Sims™ 4,"18 Jun, 2020",Free,win,124278
-The Elder Scrolls® Online,"22 May, 2017",$11.99,win-mac,117159
-Red Dead Redemption 2,"5 Dec, 2019",$59.99,win,479125
-FINAL FANTASY XIV Online,"18 Feb, 2014",$15.99,win,65011
-Yu-Gi-Oh! Master Duel,"18 Jan, 2022",Free,win,68286
-Sons Of The Forest,"23 Feb, 2023",$14.99,win,155026
-Black Desert,"15 Nov, 2017",$3.59,win,52458
-Team Fortress 2,"10 Oct, 2007",Free,win-mac-linux,022180
-Sea of Thieves 2023 Edition,"3 Jun, 2020",$39.99,win,268273
-New World,"28 Sep, 2021",$39.99,win,232708
-Forza Horizon 5,"8 Nov, 2021",$32.78,win,145082
-ARK: Survival Ascended,"25 Oct, 2023",$20.99,win,38135
-Euro Truck Simulator 2,"12 Oct, 2012",$10.09,win-mac-linux,537499
-Stardew Valley,"26 Feb, 2016",$4.99,win-mac-linux,542901
-Phasmophobia,"18 Sep, 2020",$7.79,win,526782
-Project Zomboid,"8 Nov, 2013",$10.49,win-mac-linux,203835
-Roboquest,"7 Nov, 2023",$9.74,win,9490
-SMITE®,"8 Sep, 2015",Free,win,114505
-Hogwarts Legacy,"10 Feb, 2023",$30.00,win,179902
-"Warhammer 40,000: Rogue Trader","7 Dec, 2023",$24.99,win-mac,8239
-BeamNG.drive,"29 May, 2015",$12.49,win,204659
-Call to Arms - Gates of Hell: Ostfront,"11 Jun, 2021",$4.49,win,12987
-House Flipper 2,"14 Dec, 2023",$15.99,win,4339
-American Truck Simulator,"2 Feb, 2016",$10.09,win-mac-linux,116370
-Football Manager 2024,"6 Nov, 2023",$39.99,win-mac,4539
+Palworld,"18 Jan, 2024",$14.99,win,148873
+Enshrouded,"24 Jan, 2024",$13.49,win,15673
+Counter-Strike 2,"21 Aug, 2012",Free,win-linux,861102
+TEKKEN 8,"25 Jan, 2024",$55.99,win,5393
+Baldur's Gate 3,"3 Aug, 2023",$34.99,win-mac,493024
+Lethal Company,"23 Oct, 2023",$5.79,win,254778
+PUBG: BATTLEGROUNDS,"21 Dec, 2017",Free,win,294533
+EA SPORTS FC™ 24,"28 Sep, 2023",$69.99,win,37256
+Warframe,"25 Mar, 2013",Free,win,560320
+Apex Legends™,"4 Nov, 2020",Free,win,786165
+Dead by Daylight,"14 Jun, 2016",$4.19,win,510112
+Monster Hunter: World,"9 Aug, 2018",$22.49,win,251295
+Tom Clancy's Rainbow Six® Siege,"1 Dec, 2015",$15.99,win,037391
+Call of Duty®,"27 Oct, 2022","",win,520218
+Like a Dragon: Infinite Wealth,"25 Jan, 2024",$69.99,win,2264
+Forza Horizon 5,"8 Nov, 2021",$16.39,win,147439
+Grand Theft Auto V,"13 Apr, 2015",$16.50,win,577527
+War Thunder,"15 Aug, 2013",Free,win-mac-linux,452078
+Dota 2,"9 Jul, 2013",Free,win-mac-linux,162691
+Cyberpunk 2077,"9 Dec, 2020",$44.99,win,626496
+Resident Evil 4,"23 Mar, 2023",$44.99,win,78911
+Rust,"8 Feb, 2018",$18.99,win-mac,839670
+NARAKA: BLADEPOINT,"11 Aug, 2021",Free,win,197895
+Destiny 2,"1 Oct, 2019",Free,win,581854
+The Elder Scrolls® Online,"22 May, 2017",$11.99,win-mac,117619
+Ready or Not,"13 Dec, 2023",$32.99,win,123876
+Monster Hunter World: Iceborne,"9 Jan, 2020",$29.99,win,15978
+Lost Ark,"11 Feb, 2022",Free,win,197888
+THE FINALS,"7 Dec, 2023",Free,win,128443
+ELDEN RING,"24 Feb, 2022",$47.99,win,571591
+Black Desert,"15 Nov, 2017",$3.59,win,52690
+The Sims™ 4,"18 Jun, 2020",Free,win,125885
+FINAL FANTASY XIV Online,"18 Feb, 2014",$15.99,win,65356
+Team Fortress 2,"10 Oct, 2007",Free,win-mac-linux,025486
+Last Epoch,"30 Apr, 2019",$17.99,win-linux,23712
+Street Fighter™ 6,"1 Jun, 2023",$44.99,win,21341
+Cyberpunk 2077: Phantom Liberty,"25 Sep, 2023",$22.49,win,12846
+theHunter: Call of the Wild™,"16 Feb, 2017",$3.14,win,125679
+Hell Let Loose,"27 Jul, 2021",$19.49,win,74166
+The Elder Scrolls V: Skyrim Special Edition,"27 Oct, 2016",$5.99,win,152836
+Dead Space,"27 Jan, 2023",$23.99,win,30944
+Euro Truck Simulator 2,"12 Oct, 2012",$10.09,win-mac-linux,541482
+MONSTER HUNTER RISE,"12 Jan, 2022",$29.99,win,57772
+World of Warships,"15 Nov, 2017",Free,win,135896
+Sea of Thieves 2023 Edition,"3 Jun, 2020",$39.99,win,270189
+Fallout 76,"14 Apr, 2020",$5.99,win,50094
+Wallpaper Engine,Nov 2018,$2.79,win,685144
+Red Dead Redemption 2,"5 Dec, 2019",$59.99,win,485371
+Halo Infinite,"15 Nov, 2021",Free,win,167302
 Steam Deck,"","",win-mac-linux,N/A
-Party Animals,"20 Sep, 2023",$13.49,win,29937
-Wallpaper Engine,Nov 2018,$2.79,win,679825
-Cities: Skylines,"10 Mar, 2015",$5.39,win-mac-linux,185617
-Hell Let Loose,"27 Jul, 2021",$20.99,win,73003
-Monster Hunter World: Iceborne,"9 Jan, 2020",$29.99,win,15878
-Tom Clancy's Ghost Recon® Breakpoint,"23 Jan, 2023",$47.99,win,13593
-World of Warships,"15 Nov, 2017",Free,win,134955
-Cities: Skylines II,"24 Oct, 2023",$29.99,win,31832
-Stellaris,"9 May, 2016",$23.99,win-mac-linux,112148
-"Warhammer 40,000: Darktide","30 Nov, 2022",$24.99,win,74790
-Detroit: Become Human,"18 Jun, 2020",$7.99,win,88477
-Jurassic World Evolution 2,"9 Nov, 2021",$8.09,win,20012
-Raft,"20 Jun, 2022",$19.99,win,253522
-Microsoft Flight Simulator 40th Anniversary Edition,"17 Aug, 2020",$59.99,win,51871
-Hunt: Showdown,"27 Aug, 2019",$18.99,win,149427
-RimWorld,"17 Oct, 2018",$17.99,win-mac-linux,149080
-Far Cry® 5,"26 Mar, 2018",$7.19,win,135905
-Farming Simulator 22,"21 Nov, 2021",$9.99,win-mac,45426
-theHunter: Call of the Wild™,"16 Feb, 2017",$10.49,win,124932
-DayZ,"13 Dec, 2018",$44.99,win,311993
-The Elder Scrolls V: Skyrim Special Edition,"27 Oct, 2016",$23.99,win,151380
-The Binding of Isaac: Rebirth,"4 Nov, 2014",$14.99,win-mac-linux,245378
-Hearts of Iron IV,"6 Jun, 2016",$23.99,win-mac-linux,192503
-Diablo® IV,"17 Oct, 2023",$69.99,win,11393
-Age of Empires IV: Anniversary Edition,"28 Oct, 2021",$39.99,win,47215
-Valheim,"2 Feb, 2021",$19.99,win-linux,372707
-Street Fighter™ 6,"1 Jun, 2023",$44.99,win,20909
-DAVE THE DIVER,"28 Jun, 2023",$12.99,win-mac,82789
-Madden NFL 24,"17 Aug, 2023",$69.99,win,4233
-Lies of P,"18 Sep, 2023",$35.99,win-mac,21202
-Call of Duty®: Warzone™,"16 Nov, 2022",Free,win,29076
-Sid Meier’s Civilization® VI,"20 Oct, 2016",$47.01,win-mac-linux,213937
-Remnant II,"25 Jul, 2023",$49.99,win,32358
-Fallout 76,"14 Apr, 2020",$23.99,win,49820
-Medieval Dynasty,"23 Sep, 2021",$17.99,win,30068
-Borderlands 3,"13 Mar, 2020",$8.99,win,99022
-Call of Duty®: Black Ops III,"5 Nov, 2015",$59.99,win-mac,116958
-Terraria,"16 May, 2011",$5.79,win-mac-linux,988182
-Risk of Rain 2,"11 Aug, 2020",$12.49,win,175529
-MONSTER HUNTER RISE,"12 Jan, 2022",$29.99,win,54383
-Last Epoch,"30 Apr, 2019",$17.99,win-linux,22948
-HITMAN 3,"20 Jan, 2022",$14.99,win,17770
-Resident Evil 4,"23 Mar, 2023",$44.99,win,77443
-Tiny Tina's Wonderlands,"23 Jun, 2022",$14.99,win,11235
-Crusader Kings III,"1 Sep, 2020",$29.99,win-mac-linux,66040
-Sunkenland,"25 Aug, 2023",$19.99,win,13351
-Mafia: Definitive Edition,"24 Sep, 2020",$9.99,win,52513
-Riders Republic,"8 Jun, 2023",$7.99,win,10309
-Granblue Fantasy Versus: Rising,"13 Dec, 2023",$49.99,win,2120
+Path of Exile,"23 Oct, 2013",Free,win-mac,215941
+Football Manager 2024,"6 Nov, 2023",$39.99,win-mac,4884
+Hearts of Iron IV,"6 Jun, 2016",$23.99,win-mac-linux,194290
+Diablo® IV,"17 Oct, 2023",$69.99,win,12048
+Yu-Gi-Oh! Master Duel,"18 Jan, 2022",Free,win,68812
+Stardew Valley,"26 Feb, 2016",$4.99,win-mac-linux,546888
+Sons Of The Forest,"23 Feb, 2023",$14.99,win,156321
+ARK: Survival Ascended,"25 Oct, 2023",$20.99,win,39262
+Forza Horizon 4,"9 Mar, 2021",$6.59,win,192506
+"Warhammer 40,000: Darktide","30 Nov, 2022",$16.24,win,75457
+Halo: The Master Chief Collection,"3 Dec, 2019",$9.99,win,199653
+Phasmophobia,"18 Sep, 2020",$7.79,win,530588
+Hogwarts Legacy,"10 Feb, 2023",$30.00,win,181476
+Microsoft Flight Simulator 40th Anniversary Edition,"17 Aug, 2020",$59.99,win,52285
+Project Zomboid,"8 Nov, 2013",$10.49,win-mac-linux,206814
+Deep Rock Galactic,"13 May, 2020",$29.99,win,217378
+BeamNG.drive,"29 May, 2015",$12.49,win,207961
+Madden NFL 24,"17 Aug, 2023",$69.99,win,4552
+"Warhammer 40,000: Rogue Trader","7 Dec, 2023",$24.99,win-mac,9040
+Hunt: Showdown,"27 Aug, 2019",$18.99,win,150279
+New World,"28 Sep, 2021",$39.99,win,233111
+Escape the Backrooms,"11 Aug, 2022",$4.63,win,45935
+Assetto Corsa Competizione,"29 May, 2019",$5.69,win,20315
+GUILTY GEAR -STRIVE-,"11 Jun, 2021",$9.99,win,32217
+Persona 3 Reload,"1 Feb, 2024",$69.99,win,N/A
+Hi-Fi RUSH,"25 Jan, 2023",$11.69,win,19513
+Farming Simulator 22,"21 Nov, 2021",$9.99,win-mac,46347
+MARVEL SNAP,"22 Aug, 2023",Free,win,23856
+Call of Duty®: Warzone™,"16 Nov, 2022",Free,win,29681
+American Truck Simulator,"2 Feb, 2016",$10.09,win-mac-linux,117325
+Metro Exodus,"14 Feb, 2020",$4.59,win-mac-linux,87407
+House Flipper 2,"14 Dec, 2023",$15.99,win,4763
+SnowRunner,"17 May, 2021",$9.49,win-mac,24988
+Party Animals,"20 Sep, 2023",$13.49,win,30622
+The Binding of Isaac: Rebirth,"4 Nov, 2014",$14.99,win-mac-linux,247466
+SMITE®,"8 Sep, 2015",Free,win,115068
+Palworld - Soundtrack,"19 Jan, 2024",$3.59,music,138
+Stellaris,"9 May, 2016",$23.99,win-mac-linux,112542
+Cities: Skylines II,"24 Oct, 2023",$29.99,win,32711
+Medieval Dynasty,"23 Sep, 2021",$13.49,win,30495
+Cult of the Lamb,"11 Aug, 2022",$12.49,win-mac,60908
+iRacing,"12 Jan, 2015",$9.99,win,2116
+Fallout 4,"9 Nov, 2015",$3.95,win,213213
+DayZ,"13 Dec, 2018",$44.99,win,313401
+STAR WARS™: The Old Republic™,"21 Jul, 2020",Free,win,58099
+Raft,"20 Jun, 2022",$19.99,win,254900
+The Outlast Trials,"18 May, 2023",$11.24,win,37471
+Suicide Squad: Kill the Justice League,"2 Feb, 2024",$44.99,win,N/A
+RimWorld,"17 Oct, 2018",$17.99,win-mac-linux,149802
+DREDGE,"30 Mar, 2023",$8.74,win,23195
+Summoners War,"7 Jan, 2024",Free,win,3439
+Granblue Fantasy Versus: Rising,"13 Dec, 2023",$49.99,win,2467
+Age of Empires IV: Anniversary Edition,"28 Oct, 2021",$39.99,win,47689
+Devil May Cry 5,"7 Mar, 2019",$22.49,win,77451
+Crusader Kings III,"1 Sep, 2020",$29.99,win-mac-linux,66445
+Terraria,"16 May, 2011",$5.79,win-mac-linux,993300
+Apollo Justice: Ace Attorney Trilogy,"24 Jan, 2024",$49.99,win,431
+Valheim,"2 Feb, 2021",$19.99,win-linux,374696
+Pizza Tower,"26 Jan, 2023",$7.02,win,46498
+DAVE THE DIVER,"28 Jun, 2023",$12.99,win-mac,84370
+Sifu,"28 Mar, 2023",$9.49,win,7857
+Call of Duty®: Black Ops III,"5 Nov, 2015",$59.99,win-mac,117600
+Lies of P,"18 Sep, 2023",$35.99,win-mac,21955
+Contraband Police,"8 Mar, 2023",$7.86,win,12064
+Sid Meier’s Civilization® VI,"20 Oct, 2016",$59.99,win-mac-linux,215300
+Grounded,"27 Sep, 2022",$26.79,win,52600
+Magic: The Gathering Arena,"23 May, 2023",Free,win,7867
+The Callisto Protocol™,"1 Dec, 2022",$8.09,win,26565
+Against the Storm,"8 Dec, 2023",$9.74,win,19630
+Europa Universalis IV,"13 Aug, 2013",$23.99,win-mac-linux,83823
+Total War: WARHAMMER III,"16 Feb, 2022",$49.99,win-mac-linux,67231
+Guild Wars 2,"23 Aug, 2022",Free,win,14275
+World of Tanks Blitz,"9 Nov, 2016",Free,win-mac,136558
+It Takes Two,"25 Mar, 2021",$39.99,win,130085
+Assetto Corsa,"19 Dec, 2014",$10.49,win,88868
+Sekiro™: Shadows Die Twice - GOTY Edition,"21 Mar, 2019",$59.99,win,193490
+ARK: Survival Evolved,"27 Aug, 2017",$14.99,win-mac,509944
+World of Tanks,"28 Apr, 2021",Free,win,72963
+Battlefield™ 2042,"19 Nov, 2021",$59.99,win,188382
+Squad,"23 Sep, 2020",$22.99,win,122159
+HELLDIVERS™ 2,"8 Feb, 2024",$39.99,win,N/A
+Risk of Rain 2,"11 Aug, 2020",$12.49,win,176346
+Mount & Blade II: Bannerlord,"25 Oct, 2022",$24.99,win,184749
+Kingdom Come: Deliverance,"13 Feb, 2018",$4.59,win,88999
+Factorio,"14 Aug, 2020",$17.00,win-mac-linux,141402
+Dying Light,"21 Apr, 2016",$19.49,win-mac-linux,293445
+Planet Zoo,"5 Nov, 2019",$20.99,win,63792
+Resident Evil Village,"7 May, 2021",$29.99,win,69632
+SCUM,"29 Aug, 2018",$11.99,win,79712
+The Last of Us™ Part I,"28 Mar, 2023",$59.99,win,27500
+Bloons TD 6,"17 Dec, 2018",$7.79,win-mac,258766
+Timberborn,"15 Sep, 2021",$9.99,win-mac,21180
+Resident Evil 7 Biohazard,"23 Jan, 2017",$14.99,win,54002
+Car Mechanic Simulator 2021,"11 Aug, 2021",$6.61,win,21920
+Don't Starve Together,"21 Apr, 2016",$7.99,win-mac-linux,299154
+Dying Light 2 Stay Human,"3 Feb, 2022",$28.59,win,120899
+ARMORED CORE™ VI FIRES OF RUBICON™,"24 Aug, 2023",$47.99,win,49695
+War Robots,"4 Apr, 2018",Free,win,20761
+Borderlands 3,"13 Mar, 2020",$27.61,win,99610
+Slay the Princess,"23 Oct, 2023",$8.36,win-mac-linux,7085
+V Rising,"17 May, 2022",$8.39,win,67334
+HITMAN 3,"20 Jan, 2022",$14.99,win,18228
+NBA 2K24,"7 Sep, 2023",$59.99,win,14206
+Age of Empires II: Definitive Edition,"14 Nov, 2019",$19.99,win,122012
+Remnant II,"25 Jul, 2023",$49.99,win,32758
+Garry's Mod,"29 Nov, 2006",$5.79,win-mac-linux,893177
+Disney Dreamlight Valley,"5 Dec, 2023",$20.99,win,13681
+Sonic Frontiers,"7 Nov, 2022",$23.99,win,16491
+BattleBit Remastered,"15 Jun, 2023",$14.99,win,108028
+WWE 2K23,"16 Mar, 2023",$29.69,win,3914
+Brawlhalla,"17 Oct, 2017",Free,win-mac,353335
+Anno 1800,Apr 2019,$47.99,win,13302
+MapleStory,"9 Aug, 2012",Free,win,12355
+The Witcher® 3: Wild Hunt,"18 May, 2015",$29.99,win,693198
+The Forest,"30 Apr, 2018",$10.49,win,446764
+System Shock,"30 May, 2023",$15.99,win,5790
+Beat Saber,"21 May, 2019",$14.99,win,65145
+UNDER NIGHT IN-BIRTH II Sys:Celes,"24 Jan, 2024",$22.49,win,606
+Hero's Land,"17 May, 2023",Free,win,26825
+VRChat,"1 Feb, 2017",Free,win,210447
+God of War,"14 Jan, 2022",$49.99,win,86375
+Cities: Skylines,"10 Mar, 2015",$17.99,win-mac-linux,186236
+Overwatch® 2,"10 Aug, 2023",Free,win,237280
+Conan Exiles,"8 May, 2018",$18.99,win,66437
+Persona 5 Royal,"20 Oct, 2022",$59.99,win,39011
+Conan Exiles,"8 May, 2018",$18.99,win,66437
+Persona 5 Royal,"20 Oct, 2022",$59.99,win,39011
+ULTRAKILL,"3 Sep, 2020",$12.49,win,85777
+Winter Memories,"5 Jan, 2024",$2.00,win,3107
+Satisfactory,"8 Jun, 2020",$29.99,win,131309
+New Cycle,"18 Jan, 2024",$13.49,win,801
+Slay the Spire,"23 Jan, 2019",$3.90,win-mac-linux,126361
+Left 4 Dead 2,"16 Nov, 2009",$5.79,win-mac-linux,618443
+Starfield,"5 Sep, 2023",$41.99,win,92999
+Call to Arms - Gates of Hell: Ostfront,"11 Jun, 2021",$17.99,win,13495
+Horizon Forbidden West™ Complete Edition,"21 Mar, 2024",$49.99,win,N/A
+Resident Evil 3,"24 Jan, 2019",$29.99,win,52298
+Green Hell,"5 Sep, 2019",$6.68,win,47409
+Arma 3,"12 Sep, 2013",$29.99,win-mac,152389
+Vampire Survivors,"20 Oct, 2022",$3.49,win-mac,212695
+Marvel’s Spider-Man Remastered,"12 Aug, 2022",$59.99,win,63673
+FOR HONOR™,"13 Feb, 2017",$11.99,win,85976
+Hades,"17 Sep, 2020",$4.99,win-mac,224963
+The Universim,"22 Jan, 2024",$11.24,win-mac-linux,6580
+DCS World Steam Edition,"2 Aug, 2013",Free,win,31028
+Poppy Playtime,"12 Oct, 2021",Free,win,56768
+Tower of Fantasy,"19 Oct, 2022",Free,win,9089
+Age of Wonders 4,"2 May, 2023",$29.99,win,9488
+Kenshi,"6 Dec, 2018",$6.74,win,66842
+Stray,"19 Jul, 2022",$14.99,win-mac,119480
+Sunkenland,"25 Aug, 2023",$19.99,win,13741
+Euro Truck Simulator 2 - West Balkans,"19 Oct, 2023",$9.08,win-mac-linux,1301
+Steam Deck Docking Station,"6 Oct, 2022","",win-mac-linux,N/A
+STAR WARS Jedi: Survivor™,"27 Apr, 2023",$69.99,win,42340
+Pioneers of Pagonia,"13 Dec, 2023",$14.99,win,2219
+Mortal Kombat 1,"19 Sep, 2023",$35.00,win,15264
+Assetto Corsa Competizione - GT2 Pack,"24 Jan, 2024",$10.99,win,60
+Arizona Sunshine® 2,"7 Dec, 2023",$23.99,win,579
+ICARUS,"3 Dec, 2021",$17.99,win,29908
+Limbus Company,"26 Feb, 2023",Free,win,27672
+PAYDAY 2,"13 Aug, 2013",$4.99,win-linux,424198
+Shadow of the Tomb Raider: Definitive Edition,"14 Sep, 2018",$4.95,win-mac-linux,54778
+Roboquest,"7 Nov, 2023",$12.99,win,10477
+Cuphead,"29 Sep, 2017",$19.99,win-mac,137022
+Half-Life: Alyx,"23 Mar, 2020",$26.99,win,75270
+Core Keeper,"8 Mar, 2022",$9.59,win-linux,23454
+Resident Evil 2,"24 Jan, 2019",$29.99,win,100341
+FINAL FANTASY VII REMAKE INTERGRADE,"17 Jun, 2022",$69.99,win,18165
+Call of Duty®: Modern Warfare® III - Tech Luxe Pro Pack,"24 Jan, 2024",$19.99,win,16
+Death Must Die,"14 Nov, 2023",$3.99,win-mac,11088
+Tabletop Simulator,"5 Jun, 2015",$19.99,win-mac-linux,37768
+Human Fall Flat,"22 Jul, 2016",$3.14,win-mac,150772
+Warhammer: Vermintide 2,"8 Mar, 2018",$14.99,win,76630
+Outer Wilds,"18 Jun, 2020",$12.99,win,52233
+Hollow Knight,"24 Feb, 2017",$4.99,win-mac-linux,295427
+Insurgency: Sandstorm,"12 Dec, 2018",$6.26,win,89950
+Sea of Stars,"28 Aug, 2023",$16.19,win,6625
+Shadows of Doubt,"24 Apr, 2023",$15.99,win,7478
+Dragon's Dogma 2,"21 Mar, 2024",$69.99,win,N/A
+Bopl Battle,"16 Nov, 2023",$4.34,win,3458
+Overcooked! 2,"7 Aug, 2018",$12.49,win-mac-linux,41343
+7 Days to Die,"13 Dec, 2013",$24.99,win-mac-linux,205391
+eFootball™ 2024,"29 Sep, 2021",Free,win,68798
+Northgard,"7 Mar, 2018",$4.49,win-mac-linux,45122
+Chants of Sennaar,"5 Sep, 2023",$8.99,win,9392
+Ori and the Will of the Wisps,"10 Mar, 2020",$9.89,win,113375
+Dead Cells,"6 Aug, 2018",$24.99,win-mac-linux,125162
+Baldur's Gate 3 - Digital Deluxe Edition DLC,"3 Aug, 2023",$5.49,win-mac,3647
+House Flipper,"17 May, 2018",$4.06,win-mac,75016
+Tom Clancy's Ghost Recon® Breakpoint,"23 Jan, 2023",$47.99,win,14102
+Subnautica,"23 Jan, 2018",$14.99,win-mac,232771
+Call of Duty®: Black Ops Cold War,"8 Mar, 2023",$59.99,win,11144
+Divinity: Original Sin 2 - Definitive Edition,"14 Sep, 2017",$25.99,win-mac,152595
+The Elder Scrolls V: Skyrim VR,"2 Apr, 2018",$8.99,win,7585
+"Warhammer 40,000: Inquisitor - Martyr","5 Jun, 2018",$4.59,win,16592
+Albion Online,"16 May, 2018",Free,win-mac-linux,68506
+RuneScape ®,"14 Oct, 2020",Free,win-mac,22844
+DARK SOULS™ III,"11 Apr, 2016",$47.99,win,237146
+Blasphemous 2,"24 Aug, 2023",$10.04,win,5992
+Total War: WARHAMMER II,"28 Sep, 2017",$49.99,win-mac-linux,82466
+Horizon Zero Dawn™ Complete Edition,"7 Aug, 2020",$49.99,win,82217
+Fallout: New Vegas,"19 Oct, 2010",$1.49,win,153574
+Teardown,"21 Apr, 2022",$15.99,win,78953
+Jurassic World Evolution 2,"9 Nov, 2021",$26.99,win,20248
+Train Sim World® 4,"26 Sep, 2023",$19.16,win,1186
+Darkest Dungeon® II,"8 May, 2023",$18.99,win,12810
+Phantasy Star Online 2 New Genesis,"5 Aug, 2020",Free,win,22643
+No Man's Sky,"12 Aug, 2016",$59.99,win-mac,220573
+Battlefield™ V,"22 Oct, 2020",$49.99,win,163596
+PAYDAY 3,"21 Sep, 2023",$19.49,win,36535
+Wartales,"12 Apr, 2023",$17.99,win,21002
+Resident Evil 4 - Separate Ways,"20 Sep, 2023",$7.49,win,5475
+VTOL VR,"3 Aug, 2017",$14.99,win,13539
+The Elder Scrolls V: Skyrim Anniversary Upgrade,"10 Nov, 2021",$5.99,win,5313
+Five Nights at Freddy's: Help Wanted 2,"14 Dec, 2023",$18.99,win,2759
+Russian Fishing 4,"10 Nov, 2021",Free,win,39672
+Among Us,"16 Nov, 2018",$1.49,win,596615
+Barotrauma,"13 Mar, 2023",$8.99,win-mac-linux,43079
+Pummel Party,"20 Sep, 2018",$14.99,win,38070
+Assassin's Creed Valhalla,"6 Dec, 2022",$47.99,win,17084
+The Binding of Isaac: Repentance,"30 Mar, 2021",$50.96,win,11096
+Detroit: Become Human,"18 Jun, 2020",$31.99,win,90054
+Geometry Dash,"22 Dec, 2014",$3.99,win-mac,298892
+Gorilla Tag,"1 Jan, 2023",$19.99,win,12025
+Age of Empires IV:  The Sultans Ascend,"14 Nov, 2023",$14.99,win,1187
+Cassette Beasts,"26 Apr, 2023",$7.86,win-linux,5197
+Dragonheir: Silent Gods,"26 Oct, 2023",Free,win,1830
+Coral Island,"14 Nov, 2023",$14.99,win,11923
+Dragon's Dogma: Dark Arisen,"15 Jan, 2016",$22.49,win,29968
+Summoners War: Chronicles,"9 Nov, 2022",Free,win-mac,11032
+Rise of the Tomb Raider™,"9 Feb, 2016",$2.99,win-mac-linux,98999
+Star Trek Online,"31 Jan, 2012",Free,win,18741
+Jujutsu Kaisen Cursed Clash,"1 Feb, 2024",$47.99,win,N/A
+CarX Drift Racing Online,"17 Nov, 2017",$7.99,win,67899
+Yu-Gi-Oh! Duel Links,"16 Nov, 2017",Free,win,41446
+PowerWash Simulator,"14 Jul, 2022",$19.99,win,37379
+Chivalry 2,"12 Jun, 2022",$39.99,win,27053
+Tom Clancy’s The Division® 2,"12 Jan, 2023",$23.99,win,12615
+Total War: PHARAOH,"11 Oct, 2023",$24.99,win-mac,2157
+SONIC SUPERSTARS,"16 Oct, 2023",$29.99,win,1623
+Conqueror's Blade,"5 Apr, 2020",Free,win,29415
+F1® 23,"15 Jun, 2023",$69.99,win,11205
+Gunfire Reborn,"17 Nov, 2021",$10.49,win,79390
+RimWorld - Biotech,"21 Oct, 2022",$12.49,win-mac-linux,2340
+EA SPORTS™ WRC,"2 Nov, 2023",$48.98,win,4291
+Last Train Home,"28 Nov, 2023",$18.99,win,1856
+Kerbal Space Program 2,"24 Feb, 2023",$49.99,win,16937
+Marvel’s Spider-Man: Miles Morales,"18 Nov, 2022",$49.99,win,22020
+RoboCop: Rogue City,"2 Nov, 2023",$24.99,win,6171
+Like a Dragon Gaiden: The Man Who Erased His Name,"8 Nov, 2023",$49.99,win,5383
+Sun Haven,"10 Mar, 2023",$18.74,win-mac,12992
+Six Days in Fallujah,"22 Jun, 2023",$9.99,win,7878
+METAL GEAR & METAL GEAR 2: Solid Snake,"24 Oct, 2023",$10.49,win,173
+Victoria 3,"25 Oct, 2022",$29.99,win-mac-linux,26745
+Inscryption,"19 Oct, 2021",$10.49,win-mac-linux,97742
+Arma Reforger,"16 Nov, 2023",$14.99,win,9173
+Snowbreak: Containment Zone,"24 Dec, 2023",Free,win,986
+Automobilista 2,"30 Jun, 2020",$39.99,win-linux,5946
+A Little to the Left,"8 Nov, 2022",$6.99,win-mac,6369
+Overcooked! All You Can Eat,"23 Mar, 2021",$7.59,win,2761
+Frostpunk,"24 Apr, 2018",$14.99,win-mac,82893
+Monster Hunter World: Iceborne Deluxe Kit,"9 Jan, 2020",$11.25,win,159
+The Long Dark,"1 Aug, 2017",$7.34,win-mac-linux,89487
+My Summer Car,"24 Oct, 2016",$7.99,win,59835
+WorldBox - God Simulator,"2 Dec, 2021",$10.49,win-mac-linux,26060
+DRAGON BALL XENOVERSE 2,"27 Oct, 2016",$15.99,win,34797
+Dominions 6 - Rise of the Pantokrator,"17 Jan, 2024",$44.99,win-mac-linux,445
+MOBILE SUIT GUNDAM BATTLE OPERATION 2,"30 May, 2023",Free,win,17245
+Assassin's Creed® Odyssey,"5 Oct, 2018",$47.99,win,134186
+FINAL FANTASY VI,"23 Feb, 2022",$11.19,win,2655
+Call of Duty®: Black Ops II,"12 Nov, 2012",$59.99,win,18405
+MX Bikes,"7 Oct, 2019",$17.99,win,16524
+World War Z,"21 Sep, 2021",$29.99,win,13767
+GTFO,"9 Dec, 2021",$14.99,win,37542
+Eternal Return,"19 Jul, 2023",Free,win,54192
+Governor of Poker 3,"19 Feb, 2016",Free,win-mac,14205
+Outward Definitive Edition,"17 May, 2022",$4.49,win,19449
+NieR:Automata™,"17 Mar, 2017",$31.99,win,90377
+Spiritfarer®: Farewell Edition,"18 Aug, 2020",$7.49,win-mac-linux,31795
+DARK SOULS™: REMASTERED,"23 May, 2018",$31.99,win,61053
+My Time at Sandrock,"2 Nov, 2023",$24.99,win,18693
+Kingdom Two Crowns,"11 Dec, 2018",$2.62,win-mac-linux,18688
+Dyson Sphere Program,"20 Jan, 2021",$19.99,win,69670
+Space Engineers,"28 Feb, 2019",$10.49,win,90796
+For The King II,"2 Nov, 2023",$11.24,win,7942
+Sackboy™: A Big Adventure,"27 Oct, 2022",$29.99,win,1376
+Risk of Rain Returns,"8 Nov, 2023",$7.99,win,22415
+Love Is All Around,"17 Oct, 2023",$5.80,win-mac-linux,31368
+Torchlight: Infinite,"9 May, 2023",Free,win,10510
+暖雪 Warm Snow,"18 Jan, 2022",$6.39,win,30557
+DOOM Eternal,"19 Mar, 2020",$23.99,win,158010
+Escape Simulator,"19 Oct, 2021",$7.99,win-mac-linux,11562
+Call of Duty®: Modern Warfare® III - BlackCell (Season 1),"6 Dec, 2023",$29.99,win,30
+Company of Heroes 3,"23 Feb, 2023",$49.99,win,13125
+Call of Duty®: Modern Warfare®,"8 Mar, 2023",$59.99,win,11465
+Dwarf Fortress,"6 Dec, 2022",$14.99,win-linux,22960
+Portal 2,"18 Apr, 2011",$5.79,win-mac-linux,312870
+Summer Memories,"14 Jun, 2020",$2.00,win,13590
+GrandChase,"27 Jul, 2021",Free,win,21722
+Total War: ROME II - Emperor Edition,"2 Sep, 2013",$26.99,win,46015
+(the) Gnorp Apologue,"14 Dec, 2023",$3.99,win,2884
+Cruelty Squad,"15 Jun, 2021",$7.99,win,14183
+Stronghold: Definitive Edition,"7 Nov, 2023",$7.19,win,5679
+Slime Rancher 2,"22 Sep, 2022",$12.49,win,22433
+The Last Flame,"17 Jan, 2024",$9.29,win,669
+Untitled Goose Game,"23 Sep, 2020",$4.49,win-mac,15495
+Demonologist,"25 Sep, 2023",$7.99,win,13031
+Monster Hunter Rise: Sunbreak,"29 Jun, 2022",$29.99,win,4166
+OCTOPATH TRAVELER II,"24 Feb, 2023",$58.08,win,7738
+Blade and Sorcery,"11 Dec, 2018",$19.99,win,43542
+Call of Duty®: Vanguard,"8 Mar, 2023",$59.99,win,1604
+This War of Mine,"14 Nov, 2014",$1.57,win-mac-linux,61265
+Sniper Ghost Warrior Contracts 2,"4 Jun, 2021",$4.99,win,8226
+Marvel's Guardians of the Galaxy,"26 Oct, 2021",$7.49,win,25693
+Fate/Samurai Remnant,"28 Sep, 2023",$49.99,win,2983
+High On Life,"13 Dec, 2022",$18.99,win,13536
+Far Cry® 6,"11 May, 2023",$47.99,win,15310
+UNCHARTED™: Legacy of Thieves Collection,"19 Oct, 2022",$49.99,win,11955
+Yakuza: Like a Dragon,"10 Nov, 2020",$59.99,win,19729
+The Sims™ 3,"27 Jan, 2011",$19.99,win,27442
+Wizard101,"6 Sep, 2018",Free,win,6537
+Expansion - Hearts of Iron IV: Arms Against Tyranny,"10 Oct, 2023",$11.99,win-mac-linux,1224
+"Warhammer 40,000: Rogue Trader - Season Pass","7 Dec, 2023",$14.99,win-mac,23
+Pathfinder: Wrath of the Righteous - Enhanced Edition,"2 Sep, 2021",$19.22,win-mac,24506
+Borderlands 2,"20 Sep, 2012",$19.99,win-mac-linux,186650
+Pathfinder: Wrath of the Righteous - Enhanced Edition,"2 Sep, 2021",$19.22,win-mac,24506
+Borderlands 2,"20 Sep, 2012",$19.99,win-mac-linux,186650
+ASTRONEER,"5 Feb, 2019",$29.99,win,98263
+NARUTO TO BORUTO: SHINOBI STRIKER,"29 Jun, 2023",$3.99,win,40826
+Shop Titans,"5 May, 2020",Free,win,14845
+METAL GEAR SOLID V: THE PHANTOM PAIN,"1 Sep, 2015",$10.49,win,59091
+Voidtrain,"9 May, 2023",$14.99,win,3414
+Call to Arms - Gates of Hell: Liberation,"29 Nov, 2023",$12.49,win,719
+Construction Simulator,"20 Sep, 2022",$34.99,win,5944
+Paladins®,"8 May, 2018",Free,win,342086
+Marvel's Avengers - The Definitive Edition,"4 Sep, 2020","",win,20721
+Days Gone,"17 May, 2021",$49.99,win,52127
+Risk of Rain 2: Survivors of the Void,"1 Mar, 2022",$7.99,win,4473
+Grand Theft Auto IV: Complete Edition,"","",win,125925
+Grim Dawn,"25 Feb, 2016",$12.49,win,75706
+Ghostwire: Tokyo,"24 Mar, 2022",$8.99,win,9205
+Crush Crush,"18 Oct, 2016",Free,win-mac-linux,24975
+Disco Elysium - The Final Cut,"15 Oct, 2019",$18.99,win-mac,81023
+The Binding of Isaac: Afterbirth,"30 Oct, 2015",$10.99,win-mac-linux,6888
+Lords Mobile,"2 Jun, 2019",Free,win,5208
+Disney Dreamlight Valley: A Rift in Time,"5 Dec, 2023",$15.99,win,136
+Total War: THREE KINGDOMS,"23 May, 2019",$49.99,win-mac-linux,55899
+Outlast,"4 Sep, 2013",$1.57,win-mac-linux,80189
+American Truck Simulator - Kansas,"30 Nov, 2023",$6.05,win-mac-linux,211
+DiRT Rally 2.0,"25 Feb, 2019",$19.99,win,28829
+Grand Theft Auto: San Andreas – The Definitive Edition,"19 Jan, 2023",$59.99,win,3827
+Farthest Frontier,"9 Aug, 2022",$14.99,win,15144
+The Exit 8,"29 Nov, 2023",$2.49,win,4260
+Sniper Elite 5,"25 May, 2022",$49.99,win,12738
+Ghosts of Tabor,"20 Mar, 2023",$19.99,win,5549
+DRAGON BALL Z: KAKAROT,"16 Jan, 2020",$47.99,win,35036
+State of Decay 2: Juggernaut Edition,"13 Mar, 2020",$14.99,win,42589
+Mass Effect™ Legendary Edition,"14 May, 2021",$59.99,win,39316
+DEVOUR,"28 Jan, 2021",$2.99,win-mac,54025
+Action Taimanin,"5 Oct, 2020",Free,win,17122
+Batman™: Arkham Knight,"23 Jun, 2015",$10.00,win,74459
+OMSI 2: Steam Edition,"11 Dec, 2013",$14.99,win,6228
+Crusader Kings III: Tours & Tournaments,"11 May, 2023",$17.99,win-mac-linux,1244
+Poppy Playtime - Chapter 3,"30 Jan, 2024",$5.27,win,605
+Battlefield™ 1,"11 Jun, 2020",$39.99,win,118366
+Atomic Heart,"20 Feb, 2023",$36.99,win,21936
+Train Simulator Classic,"27 Apr, 2023",$12.49,win,17389
+Mafia: Definitive Edition,"24 Sep, 2020",$39.99,win,53464
+Wizard with a Gun,"17 Oct, 2023",$9.99,win,1640
+FINAL FANTASY V,"10 Nov, 2021",$11.19,win,1375
+Thronefall,"2 Aug, 2023",$3.99,win-mac,9976
+LEGO® Star Wars™: The Skywalker Saga,"5 Apr, 2022",$25.00,win,32485
+Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition,"16 May, 2022",$29.99,win,17073
+Undawn,"13 Jun, 2023",Free,win,5333
+Crossout,"26 Jul, 2017",Free,win,58664
+Grand Theft Auto IV: The Complete Edition,"24 Mar, 2020",$19.99,win,126010
+Galactic Civilizations IV,"19 Oct, 2023",$22.99,win,815
+Sengoku Dynasty,"10 Aug, 2023",$11.99,win,2803
+FINAL FANTASY I-VI Bundle,"",$46.76,win,14302
+HELLDIVERS™ 2 - Upgrade to Super Citizen Edition,"8 Feb, 2024",$59.99,win,N/A
+METAL GEAR RISING: REVENGEANCE,"9 Jan, 2014",$14.99,win-mac,56701
+Atelier Resleriana: Forgotten Alchemy and the Polar Night Liberator,"24 Jan, 2024",Free,win,1210
+Oxygen Not Included,"30 Jul, 2019",$12.49,win-mac-linux,104070
+Three Kingdoms Zhao Yun,"17 Jan, 2024",$10.49,win,3226
+X4: Foundations,"30 Nov, 2018",$22.99,win-linux,15608
+FINAL FANTASY IV,"8 Sep, 2021",$11.19,win,1708
+Killing Floor 2,"18 Nov, 2016",$5.99,win,77025
+Total War: WARHAMMER,"24 May, 2016",$49.99,win-mac-linux,30877
+GROUND BRANCH,"14 Aug, 2018",$14.99,win,15237
+Undertale,"15 Sep, 2015",$9.99,win-mac-linux,193008
+The Binding of Isaac: Afterbirth+,"3 Jan, 2017",$35.97,win-mac-linux,6091
+Mind Over Magic,"14 Dec, 2023",$12.49,win,999
+Old World,"18 May, 2022",$19.99,win-mac-linux,2618
+Need for Speed™ Heat,"4 Jun, 2020",$69.99,win,81501
+Pentiment,"14 Nov, 2022",$11.99,win,4798
+The Isle,"1 Dec, 2015",$19.99,win,69194
+Necesse,"12 Dec, 2019",$2.49,win-mac-linux,9799
+Fishing Planet,"28 Aug, 2017",Free,win-mac-linux,51388
+Rain World,"28 Mar, 2017",$11.81,win,20723
+Palworld - Game + Soundtrack Bundle,"",$17.65,win-music,149011
+Trepang2,"21 Jun, 2023",$13.39,win,5652
+Riders Republic,"8 Jun, 2023",$31.99,win,10640
+Outlast 2,"24 Apr, 2017",$2.24,win,39848
+Lords of the Fallen,"13 Oct, 2023",$34.99,win,19304
+PlateUp!,"4 Aug, 2022",$10.49,win,11738
+Far Cry® 5,"26 Mar, 2018",$47.99,win,136770
+FINAL FANTASY III,"12 Aug, 2021",$11.19,win,1611
+kings call,"25 Dec, 2023",Free,win-mac,120
+Stormworks: Build and Rescue,"17 Sep, 2020",$12.49,win-mac,40077
+Farlight 84,"21 Sep, 2023",Free,win,40300
+Sledders,"5 Dec, 2023",$12.49,win,837
+Wingspan,"17 Sep, 2020",$5.24,win-mac,6848
+Dorfromantik,"28 Apr, 2022",$9.79,win,23126
+Metal: Hellsinger,"15 Sep, 2022",$14.99,win,11024
+DRAGON BALL FighterZ,"26 Jan, 2018",$47.99,win,47575
+The Elder Scrolls IV: Oblivion® Game of the Year Edition,"16 Jun, 2009",$2.24,win,35377
+Ratchet & Clank: Rift Apart,"26 Jul, 2023",$59.99,win,5232
+Age of Mythology: Extended Edition,"8 May, 2014",$7.49,win,27969
+SIGNALIS,"27 Oct, 2022",$9.99,win,12892
+Tiny Rogues,"23 Sep, 2022",$4.99,win,5103
+Dead by Daylight - Alan Wake Chapter,"30 Jan, 2024",$4.99,win,142
+Saints Row,"24 Aug, 2023",$7.58,win,2488
+IdleOn - The Idle MMO,"2 Apr, 2021",Free,win,15451
+Substance 3D Painter 2024,"15 Dec, 2023",$92.99,win-mac-linux,40
+Hellblade: Senua's Sacrifice,"7 Aug, 2017",$29.99,win,53673
+Grand Theft Auto V: Premium Edition & Great White Shark Card Bundle,"",$16.50,No disponible,588697
+The Talos Principle 2,"2 Nov, 2023",$14.99,win,6889
+Kerbal Space Program,"27 Apr, 2015",$9.99,win-mac-linux,96713
+Stumble Guys,"7 Oct, 2021",Free,win,107066
+MechWarrior 5: Mercenaries,"26 May, 2021",$29.99,win,8387
+Five Nights at Freddy's: Security Breach,"16 Dec, 2021",$39.99,win,55107
+Firestone: Online Idle RPG,"26 Sep, 2019",Free,win-mac-linux,5241
+Poppy Playtime - Chapter 2,"5 May, 2022",$9.99,win,8097
+DEATH STRANDING DIRECTOR'S CUT,"30 Mar, 2022","",win,17363
+Call of Duty®: Black Ops,"9 Nov, 2010",$39.99,win,17069
+Age of Empires III: Definitive Edition,"15 Oct, 2020",Free,win,40046
+Orcs Must Die! 3,"23 Jul, 2021",$3.74,win,8648
+OMORI,"25 Dec, 2020",$19.99,win-mac,58344
+Railroader,"7 Dec, 2023",$14.99,win,1057
+Foxhole,"28 Sep, 2022",$14.99,win,31272
+Crosshair X,"17 Aug, 2020",$0.99,win,11907
+DJMAX RESPECT V,"11 Mar, 2020",$49.99,win,21226
+The Sims™ 4 Cats & Dogs,"18 Jun, 2020",$39.99,win,436
+WITCH ON THE HOLY NIGHT,"14 Dec, 2023",$26.99,win,1640
+Bread & Fred,"23 May, 2023",$7.99,win-mac,2351
+Police Simulator: Patrol Officers,"10 Nov, 2022",$29.99,win,11998
+Shadow Gambit: The Cursed Crew,"17 Aug, 2023",$19.99,win,2859
+Plants vs. Zombies GOTY Edition,"5 May, 2009",$4.99,win-mac,110180
+The Coffin of Andy and Leyley,"13 Oct, 2023",$4.99,win,13365
+Metro 2033 Redux,"25 Aug, 2014",$1.49,win-mac-linux,69562
